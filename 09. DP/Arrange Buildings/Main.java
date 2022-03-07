@@ -18,7 +18,7 @@ public static void main(String[] args) throws Exception {
     }
         
     
-    int finalAns = dp[0][n]+dp[1][n];
+    long finalAns = dp[0][n]+dp[1][n];
     System.out.println(finalAns*finalAns);
  }
 
